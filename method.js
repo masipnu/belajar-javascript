@@ -231,7 +231,7 @@ const examTotal = examGrade.reduce((grade, total) => {
 // contoh berikut menggunakan variable anime
 // ini akan menghasilkan anime terbaik berdasarkan rating
 const bestAnime = animes.reduce((bestAnime, currAnime) => {
-  console.log(bestAnime, currAnime);
+  //   console.log(bestAnime, currAnime);
   if (currAnime.rating > bestAnime.rating) {
     return currAnime;
   }
